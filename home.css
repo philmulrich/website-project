@@ -1,0 +1,103 @@
+/*
+#FF906B - red
+#F9F7EE -white
+#171717 - black
+*/
+body{
+font-weight:lighter;
+  margin:0;
+  font-family: courier;
+  background-color:#F9F7EE;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-image: url(vla.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1 {
+    font-size: 5em;
+    font-weight:10;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+.hero ul{
+  text-align: center;
+  padding-right: 3%;
+}
+
+.hero li{
+  display:inline-block;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom 10%;
+}
+
+a:link, a:visited{
+  text-align: left;
+  color:#FFFFFF;
+  text-decoration: none;
+  padding: 14px 25px;
+}
+
+a:hover, a:active {
+  background-color: #2F6B75;
+  color:#FEFDF4;
+}
+
+.contentPage{
+  width: 90vw;
+  float:left;
+  padding:5vw;
+  color:#171717;
+  background-color:#F9F7EE;
+}
+
+.contentPage p{
+  text-align: justify;
+}
+
+.cc a:hover, .cc a:active{
+  background-color:#F9F7EE;
+  color: #0000EE;
+  text-decoration: underline;
+}
+
+.cc a:link, .cc a:visited{
+  background-color:#F9F7EE;
+  color: #0000EE;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.cc p{
+  text-align: center;
+  font-size: 0.5em;
+}
+
+.cc a{
+  text-align: center;
+}
+
+.cc{
+  background-color: #F1F1F1;
+  border-style: solid;
+}
+.cc div{
+}
+
+.footer{
+}
